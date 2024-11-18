@@ -1,0 +1,43 @@
+unaonoMacBook-Air:~ unao$ mkdir git_challenge
+unaonoMacBook-Air:~ unao$ cd git_challenge
+unaonoMacBook-Air:git_challenge unao$ git init 
+Initialized empty Git repository in /Users/unao/git_challenge/.git/
+unaonoMacBook-Air:git_challenge unao$ git branch
+unaonoMacBook-Air:git_challenge unao$ touch hello_world.txt
+unaonoMacBook-Air:git_challenge unao$ git branch
+unaonoMacBook-Air:git_challenge unao$ git add .
+unaonoMacBook-Air:git_challenge unao$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   hello_world.txt
+
+unaonoMacBook-Air:git_challenge unao$ git commit -m "ファイルの追加"
+[main (root-commit) d9002a2] ファイルの追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+unaonoMacBook-Air:git_challenge unao$ git add .
+unaonoMacBook-Air:git_challenge unao$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello_world.txt
+
+unaonoMacBook-Air:git_challenge unao$ git commit -m "日本語訳を追記"
+[main 533fb9c] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+unaonoMacBook-Air:git_challenge unao$ git log
+commit 533fb9c57f08d1a80c3249f4be97f2857d2ceb30 (HEAD -> main)
+Author: NaoUeda12 <ueda.nao@chrono.co.jp>
+Date:   Mon Nov 18 20:04:58 2024 +0900
+
+    日本語訳を追記
+
+commit d9002a261be175283052f6a583d5ae174d3b7ed4
+Author: NaoUeda12 <ueda.nao@chrono.co.jp>
+Date:   Mon Nov 18 20:03:57 2024 +0900
+
+    ファイルの追加
