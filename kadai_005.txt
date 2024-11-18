@@ -29,15 +29,7 @@ Changes to be committed:
 unaonoMacBook-Air:git_challenge unao$ git commit -m "日本語訳を追記"
 [main 533fb9c] 日本語訳を追記
  1 file changed, 2 insertions(+), 1 deletion(-)
-unaonoMacBook-Air:git_challenge unao$ git log
-commit 533fb9c57f08d1a80c3249f4be97f2857d2ceb30 (HEAD -> main)
-Author: NaoUeda12 <ueda.nao@chrono.co.jp>
-Date:   Mon Nov 18 20:04:58 2024 +0900
-
-    日本語訳を追記
-
-commit d9002a261be175283052f6a583d5ae174d3b7ed4
-Author: NaoUeda12 <ueda.nao@chrono.co.jp>
-Date:   Mon Nov 18 20:03:57 2024 +0900
-
+unaonoMacBook-Air:kadai_005 unao$ git log --oneline
+0126189 (HEAD -> main) READMEファイル追加
+2b2d54d (origin/main) kadai_005ファイルの追加
     ファイルの追加
